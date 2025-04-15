@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="quest&#227;o 2 de atividade"/>
+        <attribute name="authors" value="DES-I1HSB"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-08 01:13:25 "/>
+        <attribute name="created" value="REVTLUkxSFNCO0VTTjUxMk4xMjYyODQ4OzIwMjUtMDQtMDg7IjAxOjEwOjI2ICI7MjYyMQ=="/>
+        <attribute name="edited" value="REVTLUkxSFNCO0VTTjUxMk4xMjYyODQ4OzIwMjUtMDQtMDg7IjAxOjEzOjI1ICI7MTsyNzMx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="idaDe" type="Integer" array="False" size=""/>
+            <output expression="&quot;insira a sua idade&quot;" newline="True"/>
+            <input variable="idaDe"/>
+            <if expression="idaDe&gt;=18">
+                <then>
+                    <output expression="&quot;voc&#234; &#233; maior de idade&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;voc&#234; &#233; menor de idade&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Quest&#227;o 5 atividade"/>
+        <attribute name="authors" value="DES-I1HSB"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-08 01:58:43 "/>
+        <attribute name="created" value="REVTLUkxSFNCO0VTTjUxMk4xMjYyODQ4OzIwMjUtMDQtMDg7IjAxOjUzOjU4ICI7MjYzMw=="/>
+        <attribute name="edited" value="REVTLUkxSFNCO0VTTjUxMk4xMjYyODQ4OzIwMjUtMDQtMDg7IjAxOjU4OjQzICI7MTsyNzQw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numeroMultiplo" type="Integer" array="False" size=""/>
+            <output expression="&quot;escreva um numero&quot;" newline="True"/>
+            <input variable="numeroMultiplo"/>
+            <if expression="numeroMultiplo  MOD 5=0">
+                <then>
+                    <output expression="&quot;muito bem &#233; multiplo de 5 pois &#233; divisivel por 5&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;precisa estudar mais a tabuada&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

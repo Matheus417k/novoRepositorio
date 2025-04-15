@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="quest&#227;o 1 da atividade"/>
+        <attribute name="authors" value="DES-I1HSB"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-08 01:07:06 "/>
+        <attribute name="created" value="REVTLUkxSFNCO0VTTjUxMk4xMjYyODQ4OzIwMjUtMDQtMDg7IjEyOjU1OjU4ICI7MjYzNw=="/>
+        <attribute name="edited" value="REVTLUkxSFNCO0VTTjUxMk4xMjYyODQ4OzIwMjUtMDQtMDg7IjAxOjA3OjA2ICI7MTsyNzMz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numeroMaiorque0" type="Integer" array="False" size=""/>
+            <output expression="&quot;digite um numero&quot;" newline="True"/>
+            <input variable="numeroMaiorque0"/>
+            <if expression="numeroMaiorque0&gt;0">
+                <then>
+                    <output expression="&quot;muito bem &#233; um numero positivo&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;numero invalido &#233; menor que zero&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
